@@ -6,19 +6,19 @@
                 <p>DIGITAL COMICS</p>
             </li>
             <li>
-                <img src="../assets/buy-comics-digital-comics.png" alt="digital-comics">
+                <img src="../assets/buy-comics-merchandise.png" alt="merchandise">
                 <p>DIGITAL COMICS</p>
             </li>
             <li>
-                <img src="../assets/buy-comics-digital-comics.png" alt="digital-comics">
+                <img src="../assets/buy-comics-shop-locator.png" alt="shop-locator">
                 <p>DIGITAL COMICS</p>
             </li>
             <li>
-                <img src="../assets/buy-comics-digital-comics.png" alt="digital-comics">
+                <img src="../assets/buy-comics-subscriptions.png" alt="subscriptions">
                 <p>DIGITAL COMICS</p>
             </li>
             <li>
-                <img src="../assets/buy-comics-digital-comics.png" alt="digital-comics">
+                <img src="../assets/buy-dc-power-visa.svg" alt="dc-power-visa">
                 <p>DIGITAL COMICS</p>
             </li>
         </ul>
@@ -32,9 +32,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 
     .ms_ft-top {
-        background-color: #08f;
+        background-color: $blue-color;
         height: 150px;
 
         ul {
@@ -50,8 +51,12 @@ export default {
                 align-items: center;
 
                 img {
-                    height: 70px;
+                    height: 60px;
                     margin-right: 10px;
+                }
+
+                p {
+                    color: $white-color;
                 }
             }
         }

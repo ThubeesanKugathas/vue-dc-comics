@@ -67,6 +67,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
+
     .ms_ft-middle {
         height: 400px;
         background: url(../assets/footer-bg.jpg) no-repeat;
@@ -83,7 +85,7 @@ export default {
                 max-height: 100%;
             }
             img {
-                height: 450px;
+                height: 400px;
             }
         }
     }
