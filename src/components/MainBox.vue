@@ -1,6 +1,8 @@
 <template>
     <main>
-        
+        <h1>
+            --> Content goes here 
+        </h1>
     </main>
 </template>
 
@@ -10,6 +12,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+    main {
+        height: 200px;
+        background-color: #000;
+        color: #fff;
 
+        h1 {
+            line-height: 200px;
+        }
+    }
 </style>
