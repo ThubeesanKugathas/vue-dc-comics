@@ -1,6 +1,6 @@
 <template>
     <header id="app">
-        <header-box-nav />
+        <header-box-nav :navbar="nav"/>
         <div class="ms_jumbotron"></div>
     </header>
 </template>
@@ -12,7 +12,10 @@ export default {
     name: 'App',
     components: {
         HeaderBoxNav,
-  }
+    },
+    props: {
+        nav: Array
+    }
 }
 </script>
 
