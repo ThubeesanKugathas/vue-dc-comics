@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <header-box :nav="nav"/>
-    <main-box :comicsList="comicsList" />
-    <footer-box />
+    <main-box :comicsList="comicsList"/>
+    <footer-box/>
   </div>
 </template>
 
 <script>
+// IMPORTS
   import HeaderBox from './components/HeaderBox.vue'
   import MainBox from './components/MainBox.vue'
   import FooterBox from './components/FooterBox.vue'
-
 
 export default {
   name: 'App',
@@ -21,6 +21,7 @@ export default {
   },
   data() {
     return {
+      // NAV BAR OPTIONS ARRAY --------------------------------------------------
       nav: [
         {
           id:'01',
@@ -73,6 +74,7 @@ export default {
           url: '/shop'
         },
       ],
+      // ARRAY DEI COMICS -------------------------------------------------------
       comicsList: [
         {
           "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
@@ -153,5 +155,6 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './style/main.scss'
+// SCSS IMPORTS
+  @import './style/app.scss'
 </style>

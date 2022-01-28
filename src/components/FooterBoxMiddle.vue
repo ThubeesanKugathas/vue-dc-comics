@@ -104,8 +104,6 @@ export default {
                     text-decoration: none;
                     color: #888;
                 }
-                
-
             }
 
             // right side ------------------------------

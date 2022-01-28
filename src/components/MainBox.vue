@@ -1,9 +1,12 @@
 <template>
     <main>
         <div class="ms_container">
+            <!-- position absolute tag -->
             <div class="ms_current-series">
                 <h2>CURRENT SERIES</h2>
             </div>
+
+            <!-- v-for comics cards -->
             <div v-for="(card, index) in comicsList" :key="index"
                 class="ms_comics-card">
                 <div class="ms_card-image">
@@ -13,6 +16,7 @@
             </div>
         </div>
 
+        <!-- load more button -->
         <span>
             <a href="#/">
                 LOAD MORE
@@ -30,6 +34,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// SCSS IMPORTS
 @import '@/style/variables.scss';
 
     main {
@@ -45,6 +50,7 @@ export default {
             flex-wrap: wrap;
             position: relative;
 
+            // position absolute tag ------------------------------------------
             .ms_current-series {
                 position: absolute;
                 top: -70px;
@@ -53,6 +59,7 @@ export default {
                 padding: 10px 15px;
             }
 
+            // comics cards ---------------------------------------------------
             .ms_comics-card {
                 width: calc((100% - 150px) / 6);
 
@@ -67,6 +74,7 @@ export default {
             }
         }
 
+        // load more button ----------------------------------------------------------
         span {
             padding: 10px 50px;
             background-color: $blue-color;

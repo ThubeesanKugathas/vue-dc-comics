@@ -7,6 +7,7 @@
 </template>
 
 <script>
+//IMPORTS
 import FooterBoxTop from './FooterBoxTop.vue'
 import FooterBoxMiddle from './FooterBoxMiddle.vue'
 import FooterBoxBottom from './FooterBoxBottom.vue'
@@ -17,7 +18,7 @@ export default {
         FooterBoxTop,
         FooterBoxMiddle,
         FooterBoxBottom
-    }
+    },
 }
 </script>
 
