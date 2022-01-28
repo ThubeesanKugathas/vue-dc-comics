@@ -88,7 +88,6 @@ export default {
             // left side -------------------------------
             .ms_list {
                 display: flex;
-                max-height: 100%;
 
                 li {
                     margin-right: 20px;

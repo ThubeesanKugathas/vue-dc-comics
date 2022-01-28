@@ -60,7 +60,8 @@ export default {
                         color: $grey-color;
 
                         &:hover {
-                            border-bottom: 5px solid $blue-color;
+                            padding-bottom: 50px;
+                            border-bottom: 3px solid $blue-color;
                             color: $blue-color;
                         }
                     }
