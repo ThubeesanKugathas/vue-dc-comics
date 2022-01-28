@@ -103,6 +103,10 @@ export default {
                 a {
                     text-decoration: none;
                     color: #888;
+
+                    &:hover {
+                        color: $white-color;
+                    }
                 }
             }
 

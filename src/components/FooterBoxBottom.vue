@@ -58,6 +58,12 @@ export default {
                 border: 2px solid $blue-color;
                 padding: 7px 10px;
                 font-size: 20px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $blue-color;
+                    border: 2px solid $white-color;
+                }
             }
             
             // right side ---------------------------------------
@@ -73,6 +79,11 @@ export default {
                         color: $blue-color;
                         font-size: 20px;
                         font-weight: bold;
+                    }
+
+                    img:hover {
+                        filter: brightness(1.70);
+                        cursor: pointer;
                     }
                 }
             }

@@ -86,6 +86,11 @@ export default {
             a {
                 text-decoration: none;
                 color: $white-color;
+
+            }
+            
+            &:hover {
+                text-decoration: underline;
             }
         }
     }

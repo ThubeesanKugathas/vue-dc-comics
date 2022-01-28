@@ -58,6 +58,11 @@ export default {
 
                 p {
                     color: $white-color;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
                 }
             }
         }
